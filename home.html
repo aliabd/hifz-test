@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="jquery-3.4.1.js"></script>
+<script src="home.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+
+<div class = "container" >
+    <div class = "input">
+  <label for="min">Test Starting from Ayah Number:</label>
+    <input type="number" id="min" name="quantity" min="0" max="6236"
+           value="5242">
+  <label for="max">Ending at Ayah Number:</label>
+    <input type="number" id="max" name="quantity" min="0" max="6236" value="6236">
+    </div>
+  <div class = "quoteBox">
+  <h1>Test your Hifz!</h1>
+  <div id = "content" class = "container">
+    <div id="arabicVerseText" class = "largeSize"></div>
+    <div id="surahAndAyah" class = "mediumSize"></div>
+    <div id="arabicNextText" class = "largeSize"></div>
+    <div id="nextSurahAndAyah" class = "mediumSize"></div>
+  </div>
+    <button id="shuffle" class="button" style="vertical-align:middle"><span> New Ayah! </span></button>
+    <button id="showme" class="button" style="vertical-align:middle"><span>
+        Show Me!  </span></button>
+  </div>
+
+</div>
+
+</body>
+</html>
+
